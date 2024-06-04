@@ -1,0 +1,93 @@
+/* quienes-somos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+    
+}
+
+header {
+    background-color: #fff;
+    color: #e4002b;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 2%;
+    margin: 3%;
+    background: #0c0c0c;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color:#fdfdfd;
+    text-decoration: none;
+}
+
+
+
+
+.historia, .mision-vision {
+    margin: 2rem 0;
+    background-color: #fff;
+    padding: 1rem;
+
+}
+
+.historia img {
+    padding-left: 300px;
+    border-radius: 200%;
+}
+
+.historia h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #e4002b;
+    color: #e4002b;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .redes-sociales a {
+    margin: 0 1rem;
+    color: #e4002b;
+    text-decoration: none;
+}

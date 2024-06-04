@@ -1,0 +1,126 @@
+/* productos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 2%;
+    margin: 3%;
+    background: #0c0c0c;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color:#fdfdfd;
+    text-decoration: none;
+}
+
+
+.historia, .mision-vision {
+    margin: 2rem 0;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*slider*/
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    animation: desplazamiento 8s linear infinite;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 550px;
+    text-align: center;
+}
+
+.slide img {
+    width: 500px;
+    height: auto;
+}
+
+.slide h2 {
+    margin-top: 8px;
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*slider*/
+
+main {
+    padding: 1rem;
+}
+
+.catalogo {
+    margin: 2rem 0;
+}
+
+.catalogo .producto {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #e4002b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .redes-sociales a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
